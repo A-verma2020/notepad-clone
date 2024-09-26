@@ -42,23 +42,7 @@ installApp.addEventListener('click', async () => {
 		if (outcome === 'accepted') {
 			deferredPrompt = null;
 		}
-
-		ga('send', {
-			hitType: 'event',
-			eventCategory: 'pwa-install',
-			eventAction: 'custom-installation-button-clicked',
-			eventLabel: installSource,
-			eventValue: outcome === 'accepted' ? 1 : 0
-		});
 	} else {
 		showToast('Notepad is already installed.')
 	}
-});
-
-window.addEventListener('appinstalled', () => {
-	deferredPrompt = null;
-
-	const source = installSource || 'browser';
-
-	ga('send', 'event', 'pwa-install', 'installed', source);
 });
