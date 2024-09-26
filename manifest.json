@@ -6,22 +6,22 @@
   "icons": [
     {
       "src": "img/icon-48.png",
-      "sizes": "48x48",
+      "sizes":"any",
       "type": "image/png"
     },
     {
       "src": "img/icon-96.png",
-      "sizes": "96x96",
+      "sizes": "any",
       "type": "image/png"
     },
     {
       "src": "img/icon-144.png",
-      "sizes": "144x144",
+      "sizes": "any",
       "type": "image/png"
     },
     {
       "src": "img/icon-196.png",
-      "sizes": "196x196",
+      "sizes": "any",
       "type": "image/png"
     }
   ],
@@ -29,24 +29,24 @@
     {
       "src": "img/screenshot1.png",
       "type": "image/png",
-      "sizes": "540x720"
+      "sizes": "any"
     },
     {
       "src": "img/screenshot2.png",
       "type": "image/png",
-      "sizes": "540x720"
+      "sizes": "any"
     },
     {
       "src": "img/screenshot-desktop-dark.png",
       "type": "image/png",
       "form_factor": "wide",
-      "sizes": "2460x1674"
+      "sizes": "any"
     },
     {
       "src": "img/screenshot-desktop-light.png",
       "type": "image/png",
       "form_factor": "wide",
-      "sizes": "2460x1674"
+      "sizes": "any"
     }
   ],
   "start_url": "index.html",
@@ -54,7 +54,7 @@
   "background_color": "#EEEEEE",
   "url_handlers": [
     {
-      "origin": "https://notepad.js.org"
+      "origin": "https://a-verma2020.github.io/notepad-clone/"
     }
   ],
   "display_override": ["minimal-ui"]
